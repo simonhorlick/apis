@@ -16,3 +16,4 @@ proto_library(
     name = "timestamp_proto",
     srcs = ["timestamp.proto"],
 )
+
