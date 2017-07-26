@@ -22,6 +22,11 @@ proto_library(
     srcs = ["money.proto"],
 )
 
+java_proto_library(
+    name = "money_java_proto",
+    deps = [":money_proto"],
+)
+
 proto_library(
     name = "postal_address_proto",
     srcs = ["postal_address.proto"],

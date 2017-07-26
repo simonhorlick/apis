@@ -17,3 +17,8 @@ proto_library(
     srcs = ["timestamp.proto"],
 )
 
+proto_library(
+    name = "wrappers_proto",
+    srcs = ["wrappers.proto"],
+)
+
