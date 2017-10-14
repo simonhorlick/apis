@@ -13,6 +13,11 @@ proto_library(
 )
 
 proto_library(
+    name = "duration_proto",
+    srcs = ["duration.proto"],
+)
+
+proto_library(
     name = "empty_proto",
     srcs = ["empty.proto"],
 )
